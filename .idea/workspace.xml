@@ -1,30 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a8b1c79-174c-41ef-afc1-14eb49d228b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/movies_app/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies/movies_app/urls.py" afterDir="false" />
+    <list default="true" id="5a8b1c79-174c-41ef-afc1-14eb49d228b2" name="Changes" comment="create models">
+      <change afterPath="$PROJECT_DIR$/movies/media/actors_directors/hanks.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/media/actors_directors/rait.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/media/actors_directors/zemekis.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/media/movies/gamp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/templates/movies_app/movie_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/movies/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies_app/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies_app/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies_app/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies_app/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2IN0Az2F5hWygzhMmOcja37zusN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\movies\movies\templates\movies_app" />
+      <recent name="D:\movies\movies\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.1">
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="movies" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/movies" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/movies/1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="movies" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/movies/movies_app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/movies/movies_app/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.1" />
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -35,6 +114,14 @@
       <option name="presentableId" value="Default" />
       <updated>1670006594331</updated>
     </task>
+    <task id="LOCAL-00001" summary="create models">
+      <created>1670021379308</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670021379308</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -48,5 +135,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="create models" />
+    <option name="LAST_COMMIT_MESSAGE" value="create models" />
   </component>
 </project>

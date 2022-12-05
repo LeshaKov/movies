@@ -12,6 +12,7 @@ class ActorDirector(models.Model):
 
     class Meta:
         verbose_name = "Актеры и режиссеры"
+        verbose_name_plural = "Актеры и режиссеры"
 
     def __str__(self):
         return self.name

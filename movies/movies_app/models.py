@@ -1,6 +1,8 @@
 from django.db import models
 from datetime import date
 
+from django.urls import reverse
+
 
 class ActorDirector(models.Model):
     """Таблица актеры и режиссеры"""
@@ -71,6 +73,9 @@ class Movie(models.Model):
     actors = models.ManyToManyField(ActorDirector, verbose_name="Актеры", related_name="film_actor")
     directors = models.ManyToManyField(ActorDirector, verbose_name="Режиссеры", related_name="film_director")
     genres = models.ManyToManyField(Genre, verbose_name="Жанры")
+
+    def get_absolute_url(self):
+        return reverse("movie_detail", kwargs={"slug": self.url})
 
     class Meta:
         verbose_name = "Фильм"

@@ -1,8 +1,5 @@
-from django.shortcuts import render
 from django.views.generic import ListView, DetailView
-
 from movies_app.models import Movie
-from django.views.generic.base import View
 
 
 class MoviesView(ListView):

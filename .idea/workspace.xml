@@ -1,31 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a8b1c79-174c-41ef-afc1-14eb49d228b2" name="Changes" comment="create templates, add css, register models in admin">
-      <change afterPath="$PROJECT_DIR$/movies/templates/movies_app/movie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/movies.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movies.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="5a8b1c79-174c-41ef-afc1-14eb49d228b2" name="Changes" comment="listview, detailview">
+      <change afterPath="$PROJECT_DIR$/movies/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/movies/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movies/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movies/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/.idea/movies.iml" beforeDir="false" afterPath="$PROJECT_DIR$/movies/.idea/movies.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movies/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/movies/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/movies/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/movies/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/movies/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/movies/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/movies_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies_app/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/movies_app/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies_app/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/movies_app/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies_app/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/movies_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/movies_app/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies_app/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/movies_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/movies_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/static/images/footer-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/static/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/static/images/social-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/static/images/social.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/movies_app/movie.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies_app/movie.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/templates/movies_app/movie_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies_app/movie_list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -62,6 +47,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\movies\movies\templates" />
       <recent name="D:\movies\movies\templates\movies_app" />
       <recent name="D:\movies\movies\static" />
     </key>
@@ -132,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670021379308</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="listview, detailview">
+      <created>1670232530826</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670232530826</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +143,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="create models" />
-    <option name="LAST_COMMIT_MESSAGE" value="create models" />
+    <MESSAGE value="listview, detailview" />
+    <option name="LAST_COMMIT_MESSAGE" value="listview, detailview" />
   </component>
 </project>

@@ -1,10 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
+<!Doctype html>
+{% load static %}
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>{% block title %}{% endblock title %}</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}" type="text/css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css">
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 </head>
 <body>
+<div id="wrapper">
+{% include 'include/header.html' %}
+{% include 'include/sidebar.html' %}
+{% block content %}
 
+{% endblock content %}
+{% include 'include/footer.html' %}
+</div>
 </body>
 </html>

@@ -1,47 +1,6 @@
-<!Doctype html>
-{% load static %}
-<html>
-<head>
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <title>Whitesquare</title>
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}" type="text/css">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css">
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-</head>
-<body>
-<div id="wrapper">
-    <header>
-        <a href="/"><img src="{% static 'images/logo.png' %}" alt="Whitesquare logo" height="50" width="100"></a>
-        <form name="search" action="#" method="get">
-            <input type="text" name="q" placeholder="Search">
-            <button type="submit">GO</button>
-        </form>
-    </header>
-    <nav>
-        <ul class="top-menu">
-            <li><a href="/home/">HOME</a></li>
-            <li class="active">ABOUT US</li>
-            <li><a href="/services/">SERVICES</a></li>
-            <li><a href="/partners/">PARTNERS</a></li>
-            <li><a href="/customers/">CUSTOMERS</a></li>
-            <li><a href="/projects/">PROJECTS</a></li>
-            <li><a href="/careers/">CAREERS</a></li>
-            <li><a href="/contact/">CONTACT</a></li>
-        </ul>
-    </nav>
-    <aside>
-        <nav>
-            <ul class="aside-menu">
-                <li class="active">LOREM IPSUM</li>
-                <li><a href="/donec/">DONEC TINCIDUNT LAOREET</a></li>
-                <li><a href="/vestibulum/">VESTIBULUM ELIT</a></li>
-                <li><a href="/etiam/">ETIAM PHARETRA</a></li>
-                <li><a href="/phasellus/">PHASELLUS PLACERAT</a></li>
-                <li><a href="/cras/">CRAS ET NISI VITAE ODIO</a></li>
-            </ul>
-        </nav>
-    </aside>
+{% extends 'movies_app/base.html' %}
+{% block title %}Movies{% endblock title %}
+{% block content %}
     <section>
         <div class="row">
             {% for movie in movie_list %}
@@ -68,27 +27,4 @@
             {% endfor %}
         </div>
     </section>
-</div>
-<footer>
-    <div id="footer">
-        <div id="sitemap">
-            <h3>Карта сайта</h3>
-            <div>
-                <a href="/home/">Home</a>
-                <a href="/about/">About</a>
-                <a href="/services/">Services</a>
-            </div>
-            <div>
-                <a href="/partners/">Partners</a>
-                <a href="/customers/">Support</a>
-                <a href="/contact/">Contact</a>
-            </div>
-        </div>
-        <div id="footer-logo">
-            <p>Copyright &copy; 2022 Movies.</p>
-            <a href="/"><img src="{% static 'images/logo.png' %}" alt="Whitesquare logo" height="50" width="100"></a>
-        </div>
-    </div>
-</footer>
-</body>
-</html>
+{% endblock content %}

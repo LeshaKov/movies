@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a8b1c79-174c-41ef-afc1-14eb49d228b2" name="Changes" comment="listview, detailview">
-      <change afterPath="$PROJECT_DIR$/movies/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/static/images/Screenshot_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/static/images/Screenshot_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/templates/include/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/templates/include/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/templates/include/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies/templates/movies_app/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/movies_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies_app/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/images/footer-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/images/social-small.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/images/social.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/templates/movies_app/movie.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies_app/movie.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/templates/movies_app/movie_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies_app/movie_list.html" afterDir="false" />
     </list>

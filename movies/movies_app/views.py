@@ -1,7 +1,7 @@
 from django.shortcuts import redirect
 from django.views.generic.base import View
 from django.views.generic import ListView, DetailView
-from movies_app.models import Movie
+from movies_app.models import Movie, Category
 from .forms import ReviewForm
 
 

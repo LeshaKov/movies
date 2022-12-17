@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a8b1c79-174c-41ef-afc1-14eb49d228b2" name="Changes" comment="cadres and reviews">
+    <list default="true" id="5a8b1c79-174c-41ef-afc1-14eb49d228b2" name="Changes" comment="response to the review">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/movies/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/movies_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/movies_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies_app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/movies/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies_app/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/movies_app/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/movies_app/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies/templates/movies_app/movie.html" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templates/movies_app/movie.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671233904599</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="response to the review">
+      <created>1671238557843</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671238557843</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +162,7 @@
     <MESSAGE value="listview, detailview" />
     <MESSAGE value="inheritance and extension of templates" />
     <MESSAGE value="cadres and reviews" />
-    <option name="LAST_COMMIT_MESSAGE" value="cadres and reviews" />
+    <MESSAGE value="response to the review" />
+    <option name="LAST_COMMIT_MESSAGE" value="response to the review" />
   </component>
 </project>

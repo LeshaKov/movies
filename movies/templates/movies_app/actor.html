@@ -1,0 +1,47 @@
+{% extends 'movies_app/base.html' %}
+{% block title %}{{actordirector.name}}{% endblock title %}
+{% block content %}
+<section>
+    <div class="left-ads-display col-lg-8">
+        <div class="row">
+            <div class="desc1-left col-md-6">
+                <figure>
+                    <img src="{{actordirector.image.url}}" width="220" height="350" alt="">
+                </figure>
+            </div>
+            <div class="desc1-right col-md-6 pl-lg-4">
+                <h3 class="editContent">
+                    {{movie.name}}
+                </h3>
+                <h5 class="editContent"></h5>
+                <ul>
+                    <li><span><b>Возраст: </b>{{actordirector.age}}</span></li>
+                    <li>
+                            <span><b>Режиссер: </b>
+                            {% for movie in actordirector.film_director.all %}
+                                {{movie.name}}
+                            {% endfor %}
+                            </span>
+                    </li>
+                    <li>
+                        <span><b>Актер: </b>
+                        {% for movie in actordirector.film_actor.all %}
+                                {{movie.name}}
+                            {% endfor %}
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row sub-para-w3layouts mt-5">
+
+            <h3 class="shop-sing editContent">
+                О {{actordirector.name}}</h3>
+
+            <p class="editContent">
+                {{actordirector.description}}
+            </p>
+        </div>
+    </div>
+</section>
+{% endblock content %}
